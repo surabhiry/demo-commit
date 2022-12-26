@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+
+/*Navigation*/
+nav{
+    position:sticky;
+    margin-top: 0px;
+}
+.logo{
+    float: left;
+    margin-top: 0;
+}
+.logo1{
+    margin-top: 0;
+    margin-left: 0;
+    width: 200px;
+    float: left;
+}
+ul{
+    list-style-type: none;
+    margin-top: 5px;
+    font-size: 20px;
+    overflow: hidden;
+    position:static;
+    float: right;
+    width: 100%;
+    }
+li{
+    float: right;
+    margin-top: 0;
+    }
+li a{
+    margin-top: 0;
+     display: block;
+     color:black;
+     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+     padding: 10px 10px;
+     text-decoration: none;
+    }
+li a:hover{
+    background-color:lightblue;
+    color:black;
+}
+
+/*Cont1*/
+.cont1{
+    margin-left: 0px;
+    margin-right: 0px;
+/*    margin-top: 70px;*/
+    width: 100%;
+    height: 50%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: url("bg.mp4") no-repeat;
+    background-size:cover;
+}
+#background-video {
+  width: 100vw;
+  height: 60vh;
+  object-fit:cover;
+  position:absolute;
+  left: 0;
+  right: 0;
+  top: 70px;
+  z-index: -1;
+}
+h1{
+    color: white;
+    font-size: 70px;
+}
+h2{
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 30px;
+}
+
+.cont2{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 50%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+img{
+    display: inline-block;
+    width: 150px;
+    align-content: center;
+}
+.card2{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    align-items: center;
+    margin: 10px;
+    max-width: 200px;
+    border-radius: 5px;
+}
+.card2:hover{
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+}
+.city_cards{
+    display: inline;
+    width: 10%;
+    height: 10%;
+    border: none;
+    margin: 5px;
+    
+}
+
+
+a{
+    text-decoration-line: none;
+}
+
+/*Cont3*/
+.cont3{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 50%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.card3{
+     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 5px;
+    font-family: arial;
+    display: inline-block;
+    align-items: center;
+    margin: 10px;
+}
+.card3:hover{
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+}
+.sports{
+    display: inline;
+    width: 15%;
+    height: 10%;
+    border: none;
+    margin: 5px;
+    
+}
+
+
+/*CONTAINER 4*/
+.turf_name{
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 20px;
+}
+.turf_name:hover{
+    opacity: 0.7;
+}
+.turf{
+    width: 100%;
+    padding: 15px;
+    align-content: center;
+}
+.top_turf{
+    padding: 10px;
+    align-content: center;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.card img{
+    width:100%;
+    height: 250px;
+}
+.card button{
+    border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+    opacity: 0.7;   
+}
+.card:hover{
+    box-shadow: 0 20px 24px 0 rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+p{
+    text-decoration-line: none;
+    font-family:serif;
+}
+
+
+
+
+@keyframes fade{
+  from{
+    opacity:0.4;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+body{
+  background:#eeeee;
+}
+
+#slider{
+  margin:0 auto;
+  width:80%;
+  overflow:hidden;
+}
+
+.slides{
+  overflow:hidden;
+  animation-name:fade;
+  animation-duration:1s;
+  display:none;
+}
+
+img{
+  width:100%;
+}
+
+#dot{
+  margin:0 auto;
+  text-align:center;
+}
+.dot{
+  display:inline-block;
+  border-radius:50%;
+  background:#d3d3d3;
+  padding:8px;
+  margin:10px 5px;
+}
+
+.active{
+  background:black;
+}
+
+@media (max-width:567px){
+  #slider{
+    width:100%;
+
+  }
+}
+
+#heading{
+  display:block;
+  text-align:center;
+  font-size:2em;
+  margin:10px 0px;
+
+}
+
+
+/*FOOTER*/
+footer{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    background-color:lightblue;
+}
+.social_links{
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.social_img{
+    width: 5%;
+    padding: 10px;
+}
+.social_img:hover{
+     opacity: 0.7;  
+}
+.contact_details{
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.contact{
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration-line: none;
+}
+.contact:hover{
+     opacity: 0.7;
+    
+}
+

@@ -1,0 +1,126 @@
+* {  
+    box-sizing:border-box;
+    
+}
+
+html{
+    box-sizing:content-box;
+}
+
+body{
+/*    background-image: url(bg.mp4);*/
+    background-size: 100%;
+    background-color:white;
+    background-position: center;
+    /*background-repeat: no-repeat;        */
+}
+
+/Navigation/
+nav{
+    position:sticky;
+    margin-top: 0px;
+}
+.logo{
+    float: left;
+    margin-top: 0;
+}
+.logo1{
+    width: 200px;
+    float: left;
+}
+ul{
+    list-style-type: none;
+    margin-top: 0;
+    font-size: 20px;
+    overflow: hidden;
+    position:static;
+    float: right;
+    width: 100%;
+    }
+
+li{
+    float: right;
+    margin-top: 5px;
+    }
+li a{
+    margin-top: 0;
+     display: block;
+     color:black;
+     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+     padding: 10px 10px;
+     text-decoration: none;
+    }
+li a:hover{
+    background-color:lightblue;
+    color:black;
+}
+.heading{
+    color: white;
+    text-align: left;
+    padding: 80px;
+    margin-top: 40px;
+    background-image: url(banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 60px;
+    margin-left: 70px;
+}
+.details{
+    padding: 30px;
+}
+.members{
+    padding: 30px;
+}
+.member{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:45px;
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+}
+img{
+    width: 150px;
+}
+footer{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    background-color:lightblue;
+}
+.social_links{
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.social_img{
+    width: 5%;
+    padding: 10px;
+}
+.social_img:hover{
+     opacity: 0.7;  
+}
+.contact_details{
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.contact{
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration-line: none;
+}
+.contact:hover{
+     opacity: 0.7;
+    
+}
+
